@@ -5,7 +5,9 @@ public class CeilingNumber {
             System.out.println(ceilingNumber(arr,target));
         }
         static int ceilingNumber(int[]arr,int target){
-
+            if(target>arr[arr.length]){
+                return -1;
+            }
             int start = 0;
             int end = arr.length-1;
 
