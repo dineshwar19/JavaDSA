@@ -1,30 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        int [] arr = {1,3,5,7,9,11,15,18} ;
-        int target = 5;
 
-        System.out.println(binarySearch(arr , target));
     }
-    static int binarySearch(int[]arr,int target){
+    static char binarySearch(char[]letters,char target){
 
         int start=0;
-        int end = arr.length-1;
+        int end = letters.length-1;
 
-        if(arr.length==0){
-            return -1;
-        }
 
         while (start<=end){
             int mid = start + (end - start)/2;
 
-            if (target<arr[mid]) {
+            if (target<letters[mid]) {
                 end = mid - 1;
-            } else if (target>arr[mid]) {
+            } else if (target>letters[mid]) {
                 start = mid + 1;
             }else{
                 return mid;
             }
         }
-        return -1;
+        return letters[start%letters.length];
     }
 }
