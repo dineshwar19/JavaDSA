@@ -9,7 +9,7 @@ public class SearchInSorted2dArray {
                 {4, 5, 6},
                 {7, 8, 9}
         };
-        int target = 2;
+        int target = 6;
         System.out.println(Arrays.toString(search(arr, target)));
     }
 
@@ -46,6 +46,7 @@ public class SearchInSorted2dArray {
         // run the loop till 2 rows are remaining
         while (rStart < (rEnd - 1)) { // while this is true it will have more than 2 rows
             int mid = rStart + (rEnd - rStart) / 2;
+
             if (matrix[mid][cMid] == target) {
                 return new int[]{mid, cMid};
             }
