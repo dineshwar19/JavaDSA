@@ -1,10 +1,12 @@
 import java.util.Arrays;
 
 public class BubbleSort {
+
     public static void main(String[] args) {
-        int []arr = {9, 8, 3, 1, 5, 9, 4, 2};
+        int []arr = {0 ,2 ,1 ,2 ,0};
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
+        
     }
     static void bubbleSort(int[]arr){
         boolean swapped;

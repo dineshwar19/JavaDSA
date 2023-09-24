@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/FibonacciSeries/FibonacciSeries.iml" filepath="$PROJECT_DIR$/FibonacciSeries/FibonacciSeries.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaDSA.iml" filepath="$PROJECT_DIR$/JavaDSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear Search/Linear Search.iml" filepath="$PROJECT_DIR$/Linear Search/Linear Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrimeOrNot/PrimeOrNot.iml" filepath="$PROJECT_DIR$/PrimeOrNot/PrimeOrNot.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
     </modules>
