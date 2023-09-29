@@ -1,4 +1,4 @@
-public class Main {
+public class BinarySearch {
     public static void main(String[] args) {
         int[]arr = {3, 5, 7, 9, 10, 90,
                 100, 130, 140, 160, 170};
