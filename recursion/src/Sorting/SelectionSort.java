@@ -1,9 +1,11 @@
+package Sorting;
+
 import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String[] args) {
         int[]arr ={4, 1, 2, 6 , 3};
-        selectionSort(arr, 0, arr.length,0);
+        selectionSort(arr, 0, arr.length-1,0);
         System.out.println(Arrays.toString(arr));
 
     }
@@ -11,7 +13,7 @@ public class SelectionSort {
         if(lastIndex == 0){
             return;
         }
-        if(currentIndex < lastIndex){
+        if(currentIndex <= lastIndex){
             if(arr[currentIndex] > arr[maxValue]){
                 selectionSort(arr,currentIndex + 1,lastIndex,currentIndex);
             }else{
@@ -19,8 +21,8 @@ public class SelectionSort {
             }
         }else {
             int temp = arr[maxValue];
-            arr[maxValue] = arr[lastIndex - 1];
-            arr[lastIndex - 1] = temp;
+            arr[maxValue] = arr[lastIndex ];
+            arr[lastIndex ] = temp;
             selectionSort(arr, 0, lastIndex - 1, 0);
         }
 
