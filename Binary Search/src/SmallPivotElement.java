@@ -29,4 +29,4 @@ public class SmallPivotElement {
             return arr[0];
         }
     }
-
+//https://chat.openai.com/share/11cb9609-b471-4aa6-866c-e33e92005f74
